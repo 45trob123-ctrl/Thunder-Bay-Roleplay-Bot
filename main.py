@@ -675,8 +675,8 @@ async def update_staff_hub(guild):
 # STAFF TEAM BOLO SYSTEM
 # ============================================================
 
-BOLO_CHANNEL_ID = 1542546516315742238
-BOLO_ADMIN_ROLE_ID = 1542159602060107776
+BOLO_CHANNEL_ID = 1557903468629463061
+BOLO_ADMIN_ROLE_ID = 1555015217774202950
 
 
 class StaffBoloModal(discord.ui.Modal):
