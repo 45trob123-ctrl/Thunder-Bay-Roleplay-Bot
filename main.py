@@ -190,7 +190,7 @@ SAY_BLACKLIST_FILE = "/app/data/say_blacklist.json"
 NO_PING_FILE = "/app/data/no_ping.json"
 NO_PING_TIMEOUT_MINUTES = 10
 
-os.makedirs(DATA_DIRECTORY, exist_ok=True)
+os.makedirs(DATA_DIRECTORY, exist_ok=False)
 
 # ============================================================
 # DISCORD SETUP
